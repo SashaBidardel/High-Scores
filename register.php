@@ -7,7 +7,7 @@ function register($conect){
      echo "todo correcto";
  }
 if (isset($_POST["btn"])){
-    if (strlen($_POST["nombre"])>=1 && strlen($_POST["points"])>=0  ){
+    if (strlen($_POST["nombre"])>=1 && strlen($_POST["points"])>0  ){
         $name=trim($_POST["nombre"]);
         $points=trim($_POST["points"]);
         echo "hola";
